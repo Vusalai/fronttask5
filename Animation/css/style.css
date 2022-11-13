@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    background-color:#3B44A2;
+    overflow-x:hidden;
+}
+.cloud img{
+    width:65%;
+    position: absolute;
+    left:30%;
+    animation:cloud 23s linear infinite;
+}
+@keyframes cloud{
+    from{
+        left: -100%;
+    }
+    to{
+        left: 100%;
+    }
+}
+.cloud2 img{
+    width:65%;
+    position: absolute;
+    left:30%;
+    animation:cloud 19s linear infinite;
+}
+@keyframes cloud{
+    from{
+        left:-100%;
+    }
+    to{
+        left:100%;
+    }
+}
+.cloud3 img{
+    width:70%;
+    position: absolute;
+    left:30%;
+    top:5%;
+    animation:cloud 21s linear infinite;
+}
+@keyframes cloud{
+    from{
+        left:-100%;
+    }
+    to{
+        left:100%;
+    }
+}
+.cloud4 img{
+    width:67%;
+    position: absolute;
+    left: 30%;
+    animation: cloud 21.9s linear infinite;
+}
+@keyframes cloud{
+    from{
+        left:-100%;
+    }
+    to{
+        left:100%;
+    }
+}
+.rain img{
+    width: 35%;
+    top:39%;
+    left:15%;
+    position:absolute;
+    opacity: 3%;
+    animation:rain 0.3s linear 29s 19;
+}
+@keyframes rain{
+    0%{
+        opacity:2;
+    }
+    50%{
+        opacity: 2;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.rain2 img{
+    width:35%;
+    top:39%;
+    left:22%;
+    position:absolute;
+    opacity: 3%;
+    animation:rain 0.3s linear 29.3s 19;
+}
+@keyframes rain{
+    0%{
+        opacity: 3;
+    }
+    50%{
+        opacity: 3;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.rain3 img{
+    width:35%;
+    top:39%;
+    left:12%;
+    position:absolute;
+    opacity: 3%;
+    animation:rain 0.3s linear 30s 16;
+}
+@keyframes rain{
+    0%{
+        opacity: 3;
+    }
+    50%{
+        opacity: 3;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.rain4 img{
+    width:35%;
+    top:39%;
+    left:12%;
+    position:absolute;
+    opacity: 3%;
+    animation:rain 0.3s linear 30.9s 17;
+}
+@keyframes rain{
+    0%{
+        opacity: 3;
+    }
+    50%{
+        opacity: 3;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.sun img{
+    opacity: 0;
+    width: 50%;
+    bottom: 53%;
+    left: 69%;
+    position: absolute;
+    animation: sun 9s linear 33s infinite;
+}
+@keyframes sun{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.rainbow img{
+    opacity: 0;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    animation: rainbow 10s linear 40s infinite;
+}
+@keyframes rainbow{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
